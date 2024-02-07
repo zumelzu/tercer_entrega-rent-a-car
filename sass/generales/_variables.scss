@@ -1,0 +1,12 @@
+$color-fondo-encabezado: #f8ffb8;
+$color-enlace: blue;
+$color-fondo-footer: blueviolet;
+$borde-menu: black solid 2px;
+
+// mixin
+@mixin flex ($direction, $justify,$align){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+}

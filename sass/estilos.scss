@@ -1,0 +1,17 @@
+// carpeta generales 
+@import "./generales/variables";
+
+// estilos en todas las páginas
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import "./generales/header_footer";
+
+
+// pages
+@import "./page/index";
+@import "./page/otros_servicios";
+@import "./page/contacto";
+@import "./page/quienes_somos";
